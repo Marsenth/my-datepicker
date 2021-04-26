@@ -1,0 +1,29 @@
+.my-datepicker-panel
+  width: 250px
+  height: auto
+  box-shadow: 0px 0px 2px 0px #666
+
+  .my-datepicker-panel-header
+    display: flex
+    justify-content: space-between
+    align-items: center
+  
+  .my-datepicker-panel-body
+    display: flex
+    flex-direction: column
+    
+    .my-datepicker-panel-row
+      display: flex
+      flex-direction: row
+      flex: 0 0 100%
+
+      .my-datepicker-panel-week-day, .my-datepicker-panel-day
+        flex: 0 0 14.28%
+
+      .my-datepicker-panel-week-day
+        h6
+          text-align: center
+
+      .my-datepicker-panel-day
+        cursor: pointer
+        text-align: center
