@@ -6,11 +6,15 @@ import '../static/styles/app.sass';
 function App() {
   return (
     <div className="app">
-      <h3>DatePicker</h3>
-      <MyDatePicker/>
+      <div>
+        <h3>DatePicker</h3>
+        <MyDatePicker/>
+      </div>
 
-      <h3>Just DatePicker Panel</h3>
-      <MyDatePickerPanel/>
+      <div>
+        <h3>Just DatePicker Panel</h3>
+        <MyDatePickerPanel/>
+      </div>
     </div>
   );
 }
