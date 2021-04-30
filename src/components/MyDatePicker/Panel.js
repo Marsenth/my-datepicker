@@ -23,7 +23,7 @@ const MyCalendarPanel = ({ getSelectedDay = () => null, renderDay = (Day, dDate)
   return (
     <div className="my-datepicker-panel">
       <div className="my-datepicker-panel-header">
-        <button onClick={goToPrevMonth}>
+        <button className="my-datepicker-panel-go-prev" onClick={goToPrevMonth}>
           {'<'}
         </button>
 
@@ -31,7 +31,7 @@ const MyCalendarPanel = ({ getSelectedDay = () => null, renderDay = (Day, dDate)
           {calendarController.getMomentDate().format()}
         </h5>
 
-        <button onClick={goToNextMonth}>
+        <button className="my-datepicker-panel-go-next" onClick={goToNextMonth}>
           {'>'}
         </button>
       </div>
